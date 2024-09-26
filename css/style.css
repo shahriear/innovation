@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+.common_btn {
+  background-color: #2f93fd;
+  border-radius: 100px;
+  padding: 14px 28px 14px 28px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.common_heading h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: black;
+}
+.common_heading p {
+  padding-top: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  width: 570px;
+}
+.common_heading h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #37b865;
+  position: relative;
+}
+.common_heading h3::after {
+  content: '';
+  width: 66px;
+  height: 4px;
+  background-color: #37b865;
+  position: absolute;
+  top: -12px;
+  left: 0;
+}
+.choose_txt h2 {
+  padding: 12px 0 24px 0;
+}
+.choose_txt p {
+  padding-bottom: 56px;
+}
+
+/* ====================================
+            common CSS end
+======================================== */
+/* ====================================
+            manu CSS start
+======================================== */
+.main {
+  padding: 24px;
+}
+.main ul {
+  gap: 41px;
+}
+.main ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d4a68 !important;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  transition: 0.3s;
+}
+.main ul li a:hover {
+  color: #2f93fd !important;
+}
+
+/* ====================================
+            manu CSS end
+======================================== */
+/* ====================================
+            banner CSS start
+======================================== */
+#banner {
+  padding: 205px 0 173px 0;
+  background: url(../imeges/banner.png);
+  background-size: cover;
+  background-position: right;
+}
+.banner_txt h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: black;
+}
+.banner_txt p {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  padding: 24px 0 56px 0;
+}
+.banner_btn {
+  gap: 40px;
+  display: flex;
+}
+.banner_btn .watch img {
+  width: 54px;
+  margin-right: 16px;
+}
+.banner_btn .watch span {
+  color: #37b865;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ====================================
+            banner CSS end
+======================================== */
+/* ====================================
+           About Company CSS start
+======================================== */
+#about_company {
+  padding-top: 103px;
+}
+#about_company .aboutCompany_img {
+  position: relative;
+}
+.aboutCompany_img .cart {
+  width: fit-content;
+  padding: 0 30px 30px;
+  background-color: white;
+  box-shadow: 15px 19px 41px -6px rgba(131, 131, 131, 0.15);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.aboutCompany_img .cart .cart_icon {
+  width: 64px;
+  margin-left: auto;
+}
+.aboutCompany_img .cart h4 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #37b865;
+}
+.aboutCompany_img .cart span {
+  font-size: 24px;
+  font-weight: 800;
+  color: #001838;
+}
+.aboutCompany_img .cart p {
+  font-size: 35px;
+  font-weight: 700;
+  color: #001838;
+}
+
+.company_txt p span {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  width: 570px;
+  padding-top: 24px;
+  padding-bottom: 56px;
+}
+
+/* ====================================
+           About Company CSS end
+======================================== */
+/* ====================================
+            count CSS start
+======================================== */
+#count {
+  background-color: #003173;
+  padding: 90px 0 90px 0;
+  text-align: center;
+  position: relative;
+}
+.star_img {
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: -137px;
+}
+.count_items {
+  display: flex;
+  justify-content: center;
+}
+.items {
+  border-right: 1px solid #37b865;
+  padding: 0 61px;
+}
+.count_items .items h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.count_items .items p {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.count_items .items:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+.count_items .items:first-child {
+  padding-left: 0;
+}
+/* ====================================
+            count part end
+======================================== */
+/* ====================================
+            service part start
+======================================== */
+#service {
+  margin: 110px 0 110px 0;
+  text-align: center;
+  background: url(../imeges/Rectangle\ 5543.png);
+  background-repeat: no-repeat;
+  background-position: right 0% top 218px;
+}
+.service_heading {
+  width: 712px;
+  margin: auto;
+}
+.service_heading p {
+  width: 690px;
+  padding-bottom: 56px;
+}
+.service_heading h3::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.service_items {
+  padding: 70px 30px;
+  background-color: w;
+}
+/* .service_items.slick-center{
+  border-left: 1px solid #FFF2F2 ;
+  border-right: 1px solid #FFF2F2;
+} */
+.service_body {
+  border-top: 1px solid #fff2f2;
+  border-bottom: 1px solid #fff2f2;
+}
+.service_items .s_img {
+  width: 90px;
+  margin: auto;
+}
+.service_items h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+.service_items p {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  padding-top: 24px;
+}
+.service_body .prevArr,
+.service_body .nextArr {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  color: slategrey;
+  font-size: 30px;
+}
+.service_body .nextArr {
+  right: -72px;
+}
+.service_body .prevArr {
+  left: -72px;
+}
+/* ====================================
+            service part end
+======================================== */
+/* ====================================
+            choose us part start
+======================================== */
+#choos_us {
+  margin-bottom: 110px;
+}
+.chooseImg_col {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.choose_icon .icon_dtls:nth-child(2) {
+  border-top: 1px solid #ffd9d9;
+  border-bottom: 1px solid #ffd9d9;
+}
+.choose_txt p {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  width: 366px;
+}
+.choose_img {
+  width: 524px;
+}
+
+.choose_txt {
+  margin-top: 40px;
+}
+.choose_icon .icon_dtls p {
+  width: 230px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  padding: 23px 37px 24px 37px;
+}
+.choose_icon .icon_dtls .icon {
+  width: 80px;
+  height: 80px;
+  background-color: #f0fff5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #37b865;
+  font-size: 24px;
+}
+.choose_icon {
+  border: 1px solid #ffd9d9;
+  height: fit-content;
+}
+/* ====================================
+            choose us CSS end
+======================================== */
+/* ====================================
+            successfull project part start
+======================================== */
+#project {
+  background-color: #003173;
+  padding-top: 80px;
+  margin-bottom: 128px;
+  height: 560px;
+  margin-bottom: 292px;
+  position: relative;
+}
+.star_two {
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+}
+.project_heading h2,
+.project_heading p {
+  color: white;
+}
+.project_heading {
+  align-items: end;
+  padding-bottom: 56px;
+}
+.project_heading h2 {
+  padding: 10px 0 0 0;
+  width: 564px;
+}
+.project_items {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.project_items .project_details {
+  background-color: rgba(255, 255, 255, 0.83);
+  padding: 8px 30px;
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  transform: translate(-50%, 115%);
+  width: calc(100% - 16px);
+  text-align: center;
+  transition: 0.3s;
+}
+.project_items:hover .project_details {
+  transform: translate(-50%, 0);
+}
+.project_details H4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
+.project_details P {
+  font-size: 18px;
+  font-weight: 500;
+  color: #37b865;
+}
+.dot_row {
+  position: relative;
+}
+.project_dot {
+  width: 124px;
+  right: -35px;
+  bottom: -33px;
+  position: absolute;
+  z-index: -1;
+}
+.project_items img {
+  height: 379px;
+}
+/* ====================================
+            successfull project part end
+======================================== */
+/* ====================================
+            Client Feedback part start
+======================================== */
+#client_feedback {
+  margin-bottom: 75px;
+}
+.card {
+  width: 410px;
+  margin-top: 33px;
+  position: relative;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 22px 29px 111px -4px rgba(201, 201, 244, 0.2);
+}
+.card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin: auto;
+  padding-top: 40px;
+}
+.card p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.card .dot_card {
+  width: 124px;
+  display: flex;
+  position: absolute;
+  left: -34px;
+  bottom: -34px;
+  z-index: -1;
+}
+.slider {
+  margin-top: -430px;
+  padding-top: -26px;
+  padding-left: 720px;
+  margin-right: -250px;
+  margin-bottom: 114px;
+  cursor: pointer;
+}
+.items_slider:hover {
+  background-color: #ffffff;
+  box-shadow: 22px 29px 110.48px -4px rgba(201, 201, 244, 0.44);
+}
+.items_slider {
+  width: 470px;
+  height: 337px;
+  background-color: #f5f9ff;
+  margin-left: 30px;
+}
+.mini_img {
+  width: 88px;
+  height: 88px;
+  margin: auto;
+  padding-bottom: 31px;
+}
+.items_slider p {
+  padding-top: 31px;
+  text-align: center;
+  padding: 0 40px;
+  padding-top: 30px;
+}
+.items_slider h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  padding-top: 25px;
+}
+.items_slider .slider_p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 5px;
+}
+.items_slider ul {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  padding-top: 40px;
+  color: #ffc34c;
+}
+.slick-dots {
+  display: flex;
+  gap: 12px;
+  padding-left: 198px;
+  padding-top: 55px;
+}
+.slick-dots li button {
+  font-size: 0;
+  width: 28px;
+  height: 4px;
+  border: none;
+  background-color: #d9e8ff;
+}
+.slick-dots .slick-active button {
+  background-color: #37b865;
+}
+/* ====================================
+            Client Feedback part end
+======================================== */
+/* ====================================
+            Latest News part start
+======================================== */
+#latest_news {
+  padding-bottom: 110px;
+  background: url(../imeges/Rectangle\ 5544.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.latestNews_heading {
+  margin: auto;
+  width: 751px;
+  text-align: center;
+}
+.latestNews_heading h3 {
+  width: fit-content;
+  margin: auto;
+}
+.latestNews_heading h3::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.latestNews_heading h2 {
+  padding: 10px 0 56px 0;
+}
+.latestNews_heading h4 {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.latestNews_heading h4::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.news_items {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.news_items:hover {
+  box-shadow: 22px 29px 110.48px -4px rgba(201, 201, 244, 0.44);
+}
+.news_details {
+  position: relative;
+  background-color: #ffffff;
+}
+.news_details .date {
+  width: fit-content;
+  background-color: #37b865;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 5px;
+  position: absolute;
+  left: 30px;
+  top: -40px;
+}
+.news_details .date h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  padding-left: 12px;
+}
+.news_details .date p {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-right: 12px;
+  padding-bottom: 13px;
+}
+.news_details .date p span {
+  display: block;
+  padding-top: 13px;
+}
+
+.news_details h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #37b865;
+  padding: 52px 0 20px 30px;
+}
+.news_details h4 span {
+  padding-right: 24px;
+  border-right: 1px solid #37b865;
+  margin-right: 24px;
+}
+.news_details h2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 0 12px 30px;
+}
+.news_details .ff {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px 0 30px 30px;
+  position: relative;
+}
+.news_details .ff::after {
+  content: '';
+  width: 66px;
+  height: 4px;
+  background-color: #37b865;
+  position: absolute;
+  top: -3px;
+  left: 30px;
+}
+.news_items img {
+  /* width: 70px; */
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* ====================================
+            Latest News part end
+======================================== */
+/* ====================================
+            Footer part start
+======================================== */
+#footer {
+  background-color: #0b3a77;
+  padding: 140px 0 57px;
+}
+.footer_img {
+  width: 135px;
+}
+.footer_p {
+  padding-top: 44px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f0fff5;
+}
+.footer_manu {
+  width: fit-content;
+  margin: auto;
+}
+.footer_manu h3 {
+  color: #f0fff5;
+  margin-bottom: 48px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.footer_manu ul li a {
+  color: #f0fff5;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.footer_manu ul {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer_foot p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f0fff5;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.footer_foot ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f0fff5;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.footer_foot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.footer_foot ul {
+  display: flex;
+  gap: 60px;
+}
+
+/* ====================================
+            Footer part end
+======================================== */

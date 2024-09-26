@@ -1,0 +1,175 @@
+@media (min-width: 1400px) {
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
+  /*============ Common CSS Start ============*/
+  .common_heading h2 {
+    font-size: 25px;
+  }
+  .common_heading p {
+    font-size: 13px;
+    margin: auto;
+    width: 100%;
+  }
+  .common_btn {
+    font-size: 13px;
+  }
+  .common_heading h3 {
+    font-size: 20px;
+  }
+
+  /*============ Common CSS End ============*/
+  /* ======================================== */
+  /*============ navbar part Start ============*/
+  .main {
+    padding: 24px;
+  }
+  .navbar-brand {
+    width: 90px;
+  }
+  .main ul {
+    gap: 18px;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  /*============ navbar part End ============*/
+  /* ======================================== */
+  /*============ banner part Start ============*/
+  .banner_txt h1 {
+    font-size: 30px;
+  }
+  .banner_txt p {
+    font-size: 15px;
+  }
+  #banner {
+    padding: 105px 0 85px 0;
+  }
+  .banner_btn {
+    display: inline;
+  }
+  .banner_btn .watch span {
+    font-size: 12px;
+  }
+
+  /*============ banner part End ============*/
+  /* ======================================== */
+  /*============ About Company part Start ============*/
+  #about_company .aboutCompany_img {
+    padding: 0;
+  }
+
+  .company_txt p span {
+    font-size: 13px;
+    padding-bottom: 42px;
+    width: 100%;
+  }
+  .company_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  /*============ About Company part End ============*/
+  /* ======================================== */
+  /*============ count part Start ============*/
+  .star_img {
+    width: 90px;
+    top: -90px;
+  }
+  .count_items {
+    align-items: center;
+    flex-direction: column;
+  }
+  .items {
+    border-right: none;
+    padding: 0;
+  }
+  .count_items .items h3 {
+    font-size: 38px;
+  }
+  .count_items .items p {
+    font-size: 18px;
+    padding: 15px;
+  }
+  #count {
+    padding: 62px 0 62px 0;
+  }
+  /*============ count part End ============*/
+  /* ======================================== */
+  /*============ service part Start ============*/
+  .service_heading {
+    width: 100%;
+  }
+  .common_heading h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .service_heading p {
+    width: 100%;
+    padding-bottom: 84px;
+  }
+  .common_heading p {
+    font-size: 13px;
+  }
+  .service_body .prevArr {
+    left: 0;
+  }
+  .service_body .nextArr {
+    right: 0px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    top: 50%;
+    font-size: 25px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    position: static;
+    border: none;
+  }
+  .service_items p {
+    font-size: 14px;
+  }
+  .service_items h4 {
+    font-size: 25px;
+  }
+  .service_items .s_img {
+    width: 71px;
+    margin-bottom: 15px;
+  }
+
+  /*============ service part End ============*/
+  /* ======================================== */
+  /*============ choose us part Start ============*/
+  .chooseImg_col {
+    display: none;
+  }
+  #choos_us {
+    margin-bottom: 74px;
+  }
+  /*============ choose us part End ============*/
+  /* ======================================== */
+  /*============ successfull project part Start ============*/
+  /*============ successfull project part End ============*/
+  /* ======================================== */
+  /*============ Client Feedback part Start ============*/
+  /*============ Client Feedback part End ============*/
+  /* ======================================== */
+  /*============ Latest News part Start ============*/
+  /*============ Latest News part End ============*/
+  /* ======================================== */
+  /*============ Footer part Start ============*/
+  /*============ Footer part End ============*/
+  /* ======================================== */
+}
