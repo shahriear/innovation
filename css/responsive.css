@@ -5,8 +5,625 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .banner_txt {
+    text-align: center;
+  }
+  .banner_txt h1 {
+    font-size: 36px;
+  }
+  .banner_txt p {
+    font-size: 17px;
+    padding: 15px 20px;
+  }
+  #banner {
+    padding: 105px 0 85px 0;
+  }
+  .banner_btn a {
+    font-size: 13px;
+  }
+  .banner_btn {
+    display: inline;
+  }
+  .banner_btn .watch span {
+    font-size: 15px;
+  }
+
+  /*============ banner part End ============*/
+  /* ======================================== */
+  /*============ About Company part Start ============*/
+  #about_company .aboutCompany_img {
+    padding: 0 30px;
+  }
+  .aboutCompany_img {
+    margin: 0 20px;
+  }
+  #about_company .cart h4 {
+    font-size: 30px;
+  }
+  #about_company .cart p {
+    font-size: 30px;
+  }
+  .company_txt p span {
+    font-size: 13px;
+    padding-bottom: 42px;
+    width: 100%;
+  }
+  .company_btn a {
+    font-size: 15px;
+  }
+  .company_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  /*============ About Company part End ============*/
+  /* ======================================== */
+  /*============ count part Start ============*/
+  .star_img {
+    width: 90px;
+    top: -90px;
+  }
+  .count_items {
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .items {
+    border-right: none;
+    padding: 0;
+  }
+  .count_items .items h3 {
+    font-size: 28px;
+  }
+  .count_items .items p {
+    font-size: 14px;
+    padding: 15px;
+  }
+  #count {
+    padding: 62px 0 62px 0;
+  }
+  /*============ count part End ============*/
+  /* ======================================== */
+  /*============ service part Start ============*/
+  .service_heading {
+    width: 100%;
+  }
+  .common_heading h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .service_heading p {
+    width: 100%;
+    padding-bottom: 84px;
+  }
+  .common_heading p {
+    font-size: 15px;
+  }
+  .service_body .prevArr {
+    left: 0;
+  }
+  .service_body .nextArr {
+    right: px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    top: 50%;
+    font-size: 25px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    position: static;
+    border: none;
+  }
+  .service_body {
+    margin: px;
+  }
+  .service_items p {
+    font-size: 14px;
+  }
+  .service_items h4 {
+    font-size: 17px;
+  }
+  .service_items .s_img {
+    width: 71px;
+    margin-bottom: 15px;
+  }
+
+  /*============ service part End ============*/
+  /* ======================================== */
+  /*============ choose us part Start ============*/
+  .chooseImg_col {
+    display: none;
+  }
+  #choos_us {
+    margin-bottom: 74px;
+  }
+  .choose_btn .common_btn {
+    font-size: 14px;
+  }
+  /*============ choose us part End ============*/
+  /* ======================================== */
+  /*============ successfull project part Start ============*/
+  .project_items {
+    display: inline-block;
+  }
+  .dot_row {
+    display: block;
+  }
+  .project_dot {
+    bottom: 110px;
+  }
+  .project_details P {
+    font-size: 11px;
+  }
+  #project .project_items {
+    width: 200px;
+    height: 100px;
+  }
+  .project_details h4 {
+    font-size: 13px;
+  }
+  /*============ successfull project part End ============*/
+  /* ======================================== */
+  /*============ Client Feedback part Start ============*/
+  #client_feedback {
+    margin-bottom: 150px;
+  }
+  .client_heading h3 {
+    font-size: 15px;
+  }
+  .client_heading h2 {
+    font-size: 18px;
+  }
+  .card {
+    width: 200px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+
+  .card .dot_card {
+    width: 100px;
+    left: -9px;
+  }
+  .slider {
+    margin-top: -300px;
+    padding-top: -16px;
+    padding-left: 330px;
+    margin-right: -130px;
+    margin-bottom: 14px;
+    cursor: pointer;
+  }
+  .items_slider {
+    width: 100px;
+    height: 137px;
+    margin-left: 30px;
+  }
+  .mini_img {
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    padding-bottom: 31px;
+  }
+  .items_slider p {
+    padding-top: 31px;
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 30px;
+    font-size: 12px;
+  }
+  .slick-dots {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 45px;
+  }
+  /*============ Client Feedback part End ============*/
+  /* ======================================== */
+  /*============ Latest News part Start ============*/
+  #latest_news {
+    padding-top: 150px;
+  }
+
+  .latestNews_heading {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .latestNews_heading h3 {
+    width: fit-content;
+    margin: auto;
+    font-size: 17px;
+  }
+  .latestNews_heading h3::after {
+    height: 3px;
+  }
+  .row {
+    gap: 50px;
+    margin: 0 30px;
+  }
+  .news_details {
+    padding: 0 70px;
+  }
+  .news_details .date {
+    left: 40px;
+    top: -30px;
+  }
+  .news_details .date h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    padding-left: 10px;
+  }
+  .news_details .date p {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+  }
+  .news_details .date p span {
+    padding-top: 8px;
+  }
+
+  .news_details h4 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .news_details h2 {
+    font-size: 15px;
+  }
+  .news_details .ff {
+    font-size: 14px;
+  }
+  .news_details .ff::after {
+    height: 2px;
+  }
+  .news_items img {
+    width: 100%;
+    padding: 0 70px;
+  }
+  /*============ Latest News part End ============*/
+  /* ======================================== */
+  /*============ Footer part Start ============*/
+  .footer_manu h3 {
+    font-size: 20px;
+  }
+  .footer_manu ul li a {
+    font-size: 15px;
+  }
+  .footer_manu ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_foot p {
+    font-size: 13px;
+  }
+  .footer_foot ul li a {
+    font-size: 13px;
+  }
+  /*============ Footer part End ============*/
+  /* ======================================== */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /*============ navbar part Start ============*/
+  /* .main {
+    padding: 24px;
+  }
+  .navbar-brand {
+    width: 90px;
+  }
+  .main ul {
+    gap: 10px;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  } */
+  /*============ navbar part End ============*/
+  /* ======================================== */
+  /*============ banner part Start ============*/
+  .banner_txt {
+    text-align: center;
+  }
+  .banner_txt h1 {
+    font-size: 36px;
+  }
+  .banner_txt p {
+    font-size: 17px;
+    padding: 15px 20px;
+  }
+  #banner {
+    padding: 105px 0 85px 0;
+  }
+  .banner_btn a {
+    font-size: 13px;
+  }
+  .banner_btn {
+    display: inline;
+  }
+  .banner_btn .watch span {
+    font-size: 15px;
+  }
+
+  /*============ banner part End ============*/
+  /* ======================================== */
+  /*============ About Company part Start ============*/
+  #about_company .aboutCompany_img {
+    padding: 0 30px;
+  }
+  .aboutCompany_img {
+    margin: 0 20px;
+  }
+  #about_company .cart h4 {
+    font-size: 30px;
+  }
+  #about_company .cart p {
+    font-size: 30px;
+  }
+  .company_txt p span {
+    font-size: 13px;
+    padding-bottom: 42px;
+    width: 100%;
+  }
+  .company_btn a {
+    font-size: 15px;
+  }
+  .company_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  /*============ About Company part End ============*/
+  /* ======================================== */
+  /*============ count part Start ============*/
+  .star_img {
+    width: 90px;
+    top: -90px;
+  }
+  .count_items {
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .items {
+    border-right: none;
+    padding: 0;
+  }
+  .count_items .items h3 {
+    font-size: 28px;
+  }
+  .count_items .items p {
+    font-size: 14px;
+    padding: 15px;
+  }
+  #count {
+    padding: 62px 0 62px 0;
+  }
+  /*============ count part End ============*/
+  /* ======================================== */
+  /*============ service part Start ============*/
+  .service_heading {
+    width: 100%;
+  }
+  .common_heading h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .service_heading p {
+    width: 100%;
+    padding-bottom: 84px;
+  }
+  .common_heading p {
+    font-size: 15px;
+  }
+  .service_body .prevArr {
+    left: 0;
+  }
+  .service_body .nextArr {
+    right: px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    top: 50%;
+    font-size: 25px;
+  }
+  .service_body .prevArr,
+  .service_body .nextArr {
+    position: static;
+    border: none;
+  }
+  .service_body {
+    margin: px;
+  }
+  .service_items p {
+    font-size: 14px;
+  }
+  .service_items h4 {
+    font-size: 17px;
+  }
+  .service_items .s_img {
+    width: 71px;
+    margin-bottom: 15px;
+  }
+
+  /*============ service part End ============*/
+  /* ======================================== */
+  /*============ choose us part Start ============*/
+  .chooseImg_col {
+    display: none;
+  }
+  #choos_us {
+    margin-bottom: 74px;
+  }
+  .choose_btn .common_btn {
+    font-size: 14px;
+  }
+  /*============ choose us part End ============*/
+  /* ======================================== */
+  /*============ successfull project part Start ============*/
+  .project_items {
+    display: inline-block;
+  }
+  .dot_row {
+    display: block;
+  }
+  .project_dot {
+    bottom: 110px;
+  }
+  .project_details P {
+    font-size: 11px;
+  }
+  #project .project_items {
+    width: 200px;
+    height: 100px;
+  }
+  .project_details h4 {
+    font-size: 13px;
+  }
+  /*============ successfull project part End ============*/
+  /* ======================================== */
+  /*============ Client Feedback part Start ============*/
+  #client_feedback {
+    margin-bottom: 150px;
+  }
+  .client_heading h3 {
+    font-size: 15px;
+  }
+  .client_heading h2 {
+    font-size: 18px;
+  }
+  .card {
+    width: 200px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+
+  .card .dot_card {
+    width: 100px;
+    left: -9px;
+  }
+  .slider {
+    margin-top: -300px;
+    padding-top: -16px;
+    padding-left: 330px;
+    margin-right: -130px;
+    margin-bottom: 14px;
+    cursor: pointer;
+  }
+  .items_slider {
+    width: 100px;
+    height: 137px;
+    margin-left: 30px;
+  }
+  .mini_img {
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    padding-bottom: 31px;
+  }
+  .items_slider p {
+    padding-top: 31px;
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 30px;
+    font-size: 12px;
+  }
+  .slick-dots {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 45px;
+  }
+  /*============ Client Feedback part End ============*/
+  /* ======================================== */
+  /*============ Latest News part Start ============*/
+  #latest_news {
+    padding-top: 150px;
+  }
+
+  .latestNews_heading {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .latestNews_heading h3 {
+    width: fit-content;
+    margin: auto;
+    font-size: 17px;
+  }
+  .latestNews_heading h3::after {
+    height: 3px;
+  }
+  .row {
+    gap: 50px;
+    margin: 0 30px;
+  }
+  .news_details {
+    padding: 0 70px;
+  }
+  .news_details .date {
+    left: 40px;
+    top: -30px;
+  }
+  .news_details .date h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    padding-left: 10px;
+  }
+  .news_details .date p {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+  }
+  .news_details .date p span {
+    padding-top: 8px;
+  }
+
+  .news_details h4 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .news_details h2 {
+    font-size: 15px;
+  }
+  .news_details .ff {
+    font-size: 14px;
+  }
+  .news_details .ff::after {
+    height: 2px;
+  }
+  .news_items img {
+    width: 100%;
+    padding: 0 70px;
+  }
+  /*============ Latest News part End ============*/
+  /* ======================================== */
+  /*============ Footer part Start ============*/
+  .footer_manu h3 {
+    font-size: 20px;
+  }
+  .footer_manu ul li a {
+    font-size: 15px;
+  }
+  .footer_manu ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_foot p {
+    font-size: 13px;
+  }
+  .footer_foot ul li a {
+    font-size: 13px;
+  }
+  /*============ Footer part End ============*/
+  /* ======================================== */
 }
 @media (max-width: 575.98px) {
   /*============ Common CSS Start ============*/
@@ -35,7 +652,7 @@
     width: 90px;
   }
   .main ul {
-    gap: 18px;
+    gap: 10px;
     align-items: center;
   }
   .button {
@@ -46,11 +663,15 @@
   /*============ navbar part End ============*/
   /* ======================================== */
   /*============ banner part Start ============*/
+  .banner_txt {
+    text-align: center;
+  }
   .banner_txt h1 {
     font-size: 30px;
   }
   .banner_txt p {
     font-size: 15px;
+    padding: 15px 20px;
   }
   #banner {
     padding: 105px 0 85px 0;
@@ -66,9 +687,17 @@
   /* ======================================== */
   /*============ About Company part Start ============*/
   #about_company .aboutCompany_img {
-    padding: 0;
+    padding: 0 30px;
   }
-
+  .aboutCompany_img {
+    margin: 0 20px;
+  }
+  #about_company .cart h4 {
+    font-size: 30px;
+  }
+  #about_company .cart p {
+    font-size: 30px;
+  }
   .company_txt p span {
     font-size: 13px;
     padding-bottom: 42px;
@@ -96,10 +725,10 @@
     padding: 0;
   }
   .count_items .items h3 {
-    font-size: 38px;
+    font-size: 28px;
   }
   .count_items .items p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 15px;
   }
   #count {
@@ -138,11 +767,14 @@
     position: static;
     border: none;
   }
+  .service_body {
+    margin: 0 40px;
+  }
   .service_items p {
     font-size: 14px;
   }
   .service_items h4 {
-    font-size: 25px;
+    font-size: 17px;
   }
   .service_items .s_img {
     width: 71px;
@@ -161,15 +793,163 @@
   /*============ choose us part End ============*/
   /* ======================================== */
   /*============ successfull project part Start ============*/
+  .project_items {
+    display: inline-block;
+  }
+  .dot_row {
+    display: block;
+  }
+  .project_dot {
+    bottom: 110px;
+  }
+  .project_details P {
+    font-size: 11px;
+  }
+  #project .project_items {
+    width: 200px;
+    height: 100px;
+  }
+  .project_details h4 {
+    font-size: 13px;
+  }
   /*============ successfull project part End ============*/
   /* ======================================== */
   /*============ Client Feedback part Start ============*/
+  #client_feedback {
+    margin-bottom: 150px;
+  }
+  .client_heading h3 {
+    font-size: 15px;
+  }
+  .client_heading h2 {
+    font-size: 18px;
+  }
+  .card {
+    width: 200px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+
+  .card .dot_card {
+    width: 100px;
+    left: -9px;
+  }
+  .slider {
+    margin-top: -300px;
+    padding-top: -16px;
+    padding-left: 220px;
+    margin-right: -450px;
+    margin-bottom: 14px;
+    cursor: pointer;
+  }
+  .items_slider {
+    width: 100px;
+    height: 137px;
+    margin-left: 30px;
+  }
+  .mini_img {
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    padding-bottom: 31px;
+  }
+  .items_slider p {
+    padding-top: 31px;
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 30px;
+    font-size: 12px;
+  }
+  .slick-dots {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 45px;
+  }
   /*============ Client Feedback part End ============*/
   /* ======================================== */
   /*============ Latest News part Start ============*/
+  #latest_news {
+    padding-top: 150px;
+  }
+
+  .latestNews_heading {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .latestNews_heading h3 {
+    width: fit-content;
+    margin: auto;
+    font-size: 17px;
+  }
+  .latestNews_heading h3::after {
+    height: 3px;
+  }
+  .row {
+    gap: 50px;
+    margin: 0 30px;
+  }
+  .news_details {
+    padding: 0 70px;
+  }
+  .news_details .date {
+    left: 40px;
+    top: -30px;
+  }
+  .news_details .date h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    padding-left: 10px;
+  }
+  .news_details .date p {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+  }
+  .news_details .date p span {
+    padding-top: 8px;
+  }
+
+  .news_details h4 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .news_details h2 {
+    font-size: 15px;
+  }
+  .news_details .ff {
+    font-size: 14px;
+  }
+  .news_details .ff::after {
+    height: 2px;
+  }
+  .news_items img {
+    width: 100%;
+    padding: 0 70px;
+  }
   /*============ Latest News part End ============*/
   /* ======================================== */
   /*============ Footer part Start ============*/
+  .footer_manu h3 {
+    font-size: 20px;
+  }
+  .footer_manu ul li a {
+    font-size: 15px;
+  }
+  .footer_manu ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_foot p {
+    font-size: 13px;
+  }
+  .footer_foot ul li a {
+    font-size: 13px;
+  }
   /*============ Footer part End ============*/
   /* ======================================== */
 }
