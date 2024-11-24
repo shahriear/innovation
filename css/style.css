@@ -80,7 +80,14 @@ body {
             manu CSS start
 ======================================== */
 .main {
-  padding: 24px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(151, 189, 241, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
 }
 .main ul {
   gap: 41px;
@@ -569,10 +576,10 @@ body {
   transform: translateX(-50%);
 }
 .news_items {
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 1);
 }
 .news_items:hover {
-  box-shadow: 22px 29px 110.48px -4px rgba(201, 201, 244, 0.44);
+  box-shadow: 22px 29px 110.48px -4px rgba(201, 201, 244, 4.44);
 }
 .news_details {
   position: relative;
