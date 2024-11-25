@@ -243,6 +243,7 @@ body {
             service part start
 ======================================== */
 #service {
+  padding-top: 120px;
   margin: 110px 0 110px 0;
   text-align: center;
   background: url(../imeges/Rectangle\ 5543.png);
@@ -311,6 +312,7 @@ body {
             choose us part start
 ======================================== */
 #choos_us {
+  padding-top: 180px;
   margin-bottom: 110px;
 }
 .chooseImg_col {
@@ -362,14 +364,21 @@ body {
 /* ====================================
             successfull project part start
 ======================================== */
-#project {
+.ll {
+  padding-top: 130px;
+}
+.project-itm {
+  /* margin-top: 100px; */
   background-color: #003173;
   padding-top: 80px;
   margin-bottom: 128px;
   height: 560px;
-  margin-bottom: 292px;
+  margin-bottom: 282px;
   position: relative;
 }
+/* .fd{
+  ma
+} */
 .star_two {
   width: fit-content;
   position: absolute;
@@ -437,9 +446,11 @@ body {
             Client Feedback part start
 ======================================== */
 #client_feedback {
+  padding-top: 110px;
   margin-bottom: 75px;
 }
 .card {
+  height: 100%;
   width: 410px;
   margin-top: 33px;
   position: relative;
@@ -542,6 +553,7 @@ body {
             Latest News part start
 ======================================== */
 #latest_news {
+  padding-top: 130px;
   padding-bottom: 110px;
   background: url(../imeges/Rectangle\ 5544.png);
   background-repeat: no-repeat;
